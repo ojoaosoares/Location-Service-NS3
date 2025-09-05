@@ -1,6 +1,7 @@
 /* -*-  Mode: C++; c-file-style: "gnu"; indent-tabs-mode:nil; -*- */
 /*
- * Copyright (c) 2009 University of Washington
+ * Based on code from ns-3 (Copyright (c) 2009 University of Washington)
+ * Modified by João Soares, Brasil, 2025
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 as
@@ -20,10 +21,9 @@
 #include "location-service.h"
 #include "ns3/log.h"
 
-NS_LOG_COMPONENT_DEFINE ("LocationService");
+NS_LOG_COMPONENT_DEFINE("LocationService");
 
 namespace ns3 {
 
-NS_OBJECT_ENSURE_REGISTERED (LocationService);
- 
+    NS_OBJECT_ENSURE_REGISTERED(LocationService);
 }
